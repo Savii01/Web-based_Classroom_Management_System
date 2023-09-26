@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "build-parser": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.1",
+    "moment": "^2.29.4",
+    "mssql": "^9.1.1",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "otp-generator": "^4.0.1",
+    "sequelize": "^6.32.1",
+    "socket.io": "^4.7.1",
+    "tedious": "^16.1.0"
+  },
+  "name": "api",
+  "version": "1.0.0",
+  "description": "CRUD functions that create REST apis for an online classrooms",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Savii01"
+  },
+  "keywords": [
+    "mssql",
+    "nodejs",
+    "rest",
+    "apis",
+    "crud",
+    "online",
+    "classroom"
+  ],
+  "author": "Saviour Andrew",
+  "license": "ISC"
+}

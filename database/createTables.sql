@@ -1,0 +1,38 @@
+/*
+CREATE TABLE studentData (
+  studentID INT PRIMARY KEY IDENTITY,
+  regNo VARCHAR(255) UNIQUE NOT NULL,
+  fullName VARCHAR(255) NOT NULL,
+  gender VARCHAR(10) NOT NULL,
+  dateOfBirth VARCHAR(50) NOT NULL,
+  phone VARCHAR(50) NOT NULL,
+  program VARCHAR(50) NOT NULL,
+  dept VARCHAR(50) NOT NULL,
+  levelOfStudy VARCHAR(50) NOT NULL,
+  yearOfStudy VARCHAR(50) NOT NULL
+);
+*/
+
+/*
+CREATE TABLE coursetData (
+  courseID INT PRIMARY KEY IDENTITY,
+  courseCode VARCHAR(255) UNIQUE NOT NULL,
+  courseTitle VARCHAR(255) NOT NULL,
+  department VARCHAR(10) NOT NULL,
+  instructor VARCHAR(50) NOT NULL,
+  prerequisites VARCHAR(50) NOT NULL,
+  schedule VARCHAR(50) NOT NULL,
+  room VARCHAR(50) NOT NULL,
+);
+*/
+
+CREATE TABLE userData (
+  userID INT PRIMARY KEY,
+  userName VARCHAR(255) NOT NULL UNIQUE,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  userPassword VARCHAR(255) NOT NULL,
+  regNo VARCHAR(255) NOT NULL UNIQUE,
+  position VARCHAR(255) NOT NULL,
+  isAdmin VARCHAR(255) DEFAULT 'false'
+);
+
